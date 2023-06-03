@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
       # Runs collections of postman in the respository
       - name: Newman Action
-      - uses: matt-ball/newman-action@v1.0.4
+        uses: matt-ball/newman-action@v1.0.4
         with:
           collection: Simple_Grocery_Store.postman_collection.json
           environment: pro.postman_environment.json
